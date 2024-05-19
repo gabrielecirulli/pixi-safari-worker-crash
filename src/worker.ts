@@ -11,6 +11,7 @@ self.onmessage = (event) => {
 
   const canvas = event.data.canvas;
 
+  // COMMENT OUT THIS CALL AND YOU WILL ONLY SEE THE MESSAGE ONCE
   if (canvas) initApp(canvas);
 };
 
